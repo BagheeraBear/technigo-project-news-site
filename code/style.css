@@ -2,3 +2,31 @@ html {
   background: #0025ff;
   color: #fff;
 }
+
+
+
+.mother-grid {
+  display: grid;
+  grid-template-columns: 12;
+  gap: 10px;
+}
+
+.grid-header {
+  grid-column: span 12;
+  text-align: center;
+}
+
+.main-news {
+  grid-column: 2 / 12;
+  background-color: gray;
+}
+
+.cards {
+  grid-column: 3 / 11;
+  background-color: papayawhip;
+}
+
+.card {
+  grid-column: span 4;
+  background-color: yellow;
+}
